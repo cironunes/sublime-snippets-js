@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+function *(${1:next}) {
+	${0://body...}
+	${2:yield next;}
+}
+]]></content>
+	<tabTrigger>sfn</tabTrigger>
+	<scope>source.js</scope>
+	<description>function star</description>
+</snippet>
